@@ -9,6 +9,7 @@
   --yellow: #d8b53a;
   --blue: #1acbe9;
   --black: #000000;
+  font-size: 62.5%; /*1rem = 10px*/
 }
 
 /*=================BODY=================*/
@@ -16,7 +17,8 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: #dddddd;
+  background: url("assets/background.svg");
+  background-size: cover;
 }
 
 /*=================HEADER=================*/
@@ -26,18 +28,18 @@ header img {
   display: block;
 
   margin-inline: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
 
   border-radius: 50%;
-  border: 4px solid var(--yellow);
+  border: 0.4rem solid var(--yellow);
 
-  background: #dddddd;
+  background: none;
 
-  padding: 4px;
+  padding: 0.4rem;
 }
 
 header {
@@ -54,30 +56,31 @@ h4,
 p {
   line-height: 150%;
 
-  font-family: Roboto;
+  font-family: "Prompt", sans-serif;
   font-style: normal;
 }
 
 header h1 {
   color: var(--black);
 
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
   margin-inline: auto;
 
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 header h4 {
+  font-size: 1.6rem;
   color: var(--black);
 
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 header p {
   color: var(--black);
 
-  font-size: 18px;
+  font-size: 1.8rem;
 
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 /*======================CANVAS======================*/
@@ -90,19 +93,8 @@ canvas {
 
 /*=================LINKS=================*/
 
-.social-links {
-  z-index: 100;
-  display: block;
-
-  justify-items: center;
-
-  text-align: center;
-}
-
 .social-links li {
-  margin-inline: auto;
-
-  padding: 16px 20px;
+  padding: 1.4rem;
 }
 
 .social-links li a {
@@ -111,16 +103,14 @@ canvas {
   display: flex;
   flex-direction: row;
 
-  justify-items: center;
-
-  justify-content: space-around;
+  justify-content: center;
 
   margin-inline: auto;
 
-  font-family: "Roboto";
+  font-family: "Prompt", sans-serif;
   font-style: bold;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 1.4rem;
 
   line-height: 150%;
 
@@ -131,14 +121,14 @@ canvas {
   color: #ffffff;
   background: #e9c43e;
 
-  padding: 16px 120px;
+  padding: 1.6rem 13rem;
 
-  gap: 26px;
+  gap: 2rem;
 
-  width: 10px;
-  height: 50px;
+  width: 1rem;
+  height: 5rem;
 
-  border-radius: 6px;
+  border-radius: 0.6rem;
 
   list-style-type: none;
 
