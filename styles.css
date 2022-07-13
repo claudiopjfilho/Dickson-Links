@@ -129,9 +129,9 @@ canvas {
   text-decoration: none;
 
   color: #ffffff;
-  background: var(--yellow);
+  background: #ffc904;
 
-  padding: 16px 150px;
+  padding: 16px 100px;
 
   gap: 26px;
 
