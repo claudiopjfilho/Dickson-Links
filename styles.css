@@ -58,9 +58,6 @@ p {
 
   color: white;
 
-  text-shadow: #000000;
-  text-decoration-color: red;
-
   font-family: "Prompt", sans-serif;
   font-style: normal;
 }
@@ -136,7 +133,7 @@ canvas {
 }
 
 .social-links li a:hover {
-  background: #d6d6d6;
+  background: #c5c5c5;
 }
 
 .social-links li a img .path {
