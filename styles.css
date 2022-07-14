@@ -35,7 +35,7 @@ header img {
   height: 10rem;
 
   border-radius: 50%;
-  border: 0.4rem solid var(--yellow);
+  border: 0.4rem solid #f1f1f1;
 
   background: none;
 
@@ -56,13 +56,16 @@ h4,
 p {
   line-height: 150%;
 
-  font-family: Roboto;
+  color: white;
+
+  text-shadow: #000000;
+  text-decoration-color: red;
+
+  font-family: "Prompt", sans-serif;
   font-style: normal;
 }
 
 header h1 {
-  color: var(--black);
-
   margin-bottom: 0.8rem;
   margin-inline: auto;
 
@@ -71,13 +74,10 @@ header h1 {
 
 header h4 {
   font-size: 1.6rem;
-  color: var(--black);
 
   margin-bottom: 0.8rem;
 }
 header p {
-  color: var(--black);
-
   font-size: 1.8rem;
 
   margin-bottom: 2rem;
@@ -107,7 +107,7 @@ canvas {
 
   margin-inline: auto;
 
-  font-family: "Roboto";
+  font-family: "Prompt", sans-serif;
   font-style: bold;
   font-weight: 700;
   font-size: 1.4rem;
@@ -118,8 +118,8 @@ canvas {
   text-transform: uppercase;
   text-decoration: none;
 
-  color: #ffffff;
-  background: #e9c43e;
+  color: rgb(24, 24, 24);
+  background: #f1f1f1;
 
   padding: 1.6rem 13rem;
 
@@ -136,5 +136,9 @@ canvas {
 }
 
 .social-links li a:hover {
-  background: #af8d0f;
+  background: #d6d6d6;
+}
+
+.social-links li a img .path {
+  fill: white;
 }
